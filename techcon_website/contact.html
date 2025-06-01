@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact TechCon 2024</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+
+            <!-- Email Contact -->
+            <div>
+                <h3>Email</h3>
+                <p>
+                    <a href="mailto:contact@techcon2024.example.com">contact@techcon2024.example.com</a>
+                </p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div>
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://twitter.com/techcon" target="_blank">Twitter</a></li>
+                    <li><a href="https://linkedin.com/company/techcon" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://facebook.com/techcon" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+
+            <!-- Embedded Map -->
+            <div>
+                <h3>Venue Location</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.138759466057!2d-122.4194!3d37.7749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ2JzI5LjYiTiAxMjLCsDI1JzA5LjkiVw!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Send Us a Message</h2>
+            <form action="/submit-contact" method="POST">
+                <div>
+                    <label for="contact-name">Your Name:</label>
+                    <input type="text" id="contact-name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="contact-email">Your Email:</label>
+                    <input type="email" id="contact-email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="contact-message">Message:</label>
+                    <textarea id="contact-message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Copyright 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
